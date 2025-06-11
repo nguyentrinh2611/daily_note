@@ -1,0 +1,12 @@
+{
+  "dart.previewFlutterUiGuides": true,
+  "dart.lineLength": 100,
+  "editor.formatOnSave": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "always",
+      "source.organizeImports": "always"
+    }
+  }
+}
