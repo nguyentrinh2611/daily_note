@@ -1,11 +1,10 @@
 // Dart imports:
 import 'dart:async';
 
-// Flutter imports:
-import 'package:flutter/material.dart';
-
 // Package imports:
 import 'package:firebase_core/firebase_core.dart';
+// Flutter imports:
+import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 // Project imports:
@@ -20,7 +19,7 @@ void main() async {
     () async {
       WidgetsFlutterBinding.ensureInitialized();
       final FirebaseApp app = await Firebase.initializeApp(
-          options: DefaultFirebaseOptions.currentPlatform, name: "bunny-note");
+          options: DefaultFirebaseOptions.currentPlatform, name: "bunnynote");
 
       await di.init(
         firebaseApp: app,

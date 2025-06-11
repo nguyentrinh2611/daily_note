@@ -45,17 +45,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyBi55qY2pH03kMUu_HtuaRi-GCI_cvgCyQ',
-    appId: '1:217370988969:web:a88a83d5fb417f8e8c74b8',
+    appId: '1:217370988969:web:e81d38567723ac2f8c74b8',
     messagingSenderId: '217370988969',
     projectId: 'bunny-note',
     authDomain: 'bunny-note.firebaseapp.com',
     storageBucket: 'bunny-note.firebasestorage.app',
-    measurementId: 'G-R1M6WT9739',
+    measurementId: 'G-MWNKNVYSV8',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAl2RtkHNhayW3gauy6IX6Ogt8Lm7VssN4',
-    appId: '1:217370988969:android:dc7551922f3d290b8c74b8',
+    appId: '1:217370988969:android:ab08fd9a92889fbb8c74b8',
     messagingSenderId: '217370988969',
     projectId: 'bunny-note',
     storageBucket: 'bunny-note.firebasestorage.app',
@@ -63,29 +63,30 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBcLgQhDhrTWFo9QpWnTnoYBeWTmRp3LaQ',
-    appId: '1:217370988969:ios:6d5d28543225bb968c74b8',
+    appId: '1:217370988969:ios:96c32d754136a4198c74b8',
     messagingSenderId: '217370988969',
     projectId: 'bunny-note',
     storageBucket: 'bunny-note.firebasestorage.app',
-    iosBundleId: 'com.vuongdan.sc.dev',
+    iosBundleId: 'com.example.bunnynote',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyBcLgQhDhrTWFo9QpWnTnoYBeWTmRp3LaQ',
-    appId: '1:217370988969:ios:7d8ddb4312f8ef828c74b8',
+    appId: '1:217370988969:ios:96c32d754136a4198c74b8',
     messagingSenderId: '217370988969',
     projectId: 'bunny-note',
     storageBucket: 'bunny-note.firebasestorage.app',
-    iosBundleId: 'com.example.sc',
+    iosBundleId: 'com.example.bunnynote',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
     apiKey: 'AIzaSyBi55qY2pH03kMUu_HtuaRi-GCI_cvgCyQ',
-    appId: '1:217370988969:web:da5a30eecf1160b58c74b8',
+    appId: '1:217370988969:web:b742857b585f30888c74b8',
     messagingSenderId: '217370988969',
     projectId: 'bunny-note',
     authDomain: 'bunny-note.firebaseapp.com',
     storageBucket: 'bunny-note.firebasestorage.app',
-    measurementId: 'G-8MDWB8GECM',
+    measurementId: 'G-RJXHYQGB08',
   );
+
 }

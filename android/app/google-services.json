@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217370988969",
+    "project_id": "bunny-note",
+    "storage_bucket": "bunny-note.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217370988969:android:ab08fd9a92889fbb8c74b8",
+        "android_client_info": {
+          "package_name": "com.example.bunnynote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl2RtkHNhayW3gauy6IX6Ogt8Lm7VssN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
