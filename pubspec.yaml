@@ -45,15 +45,16 @@ dependencies:
   flutter_easyloading: ^3.0.5
 
   # Firebase Services
-  firebase_core: ^2.14.0
-  firebase_auth: ^4.7.1
-  firebase_database: ^10.1.0
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.16.0
+  firebase_database: ^10.5.3
   # firebase_storage: ^11.2.5
   uuid: ^3.0.7
   badges: ^3.1.1
 
   image_picker: ^1.0.1
   image: ^4.0.17
+  firebase_ui_auth: ^1.4.0
 
 dev_dependencies:
   flutter_test:

@@ -49,6 +49,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '217370988969',
     projectId: 'bunny-note',
     authDomain: 'bunny-note.firebaseapp.com',
+    databaseURL: 'https://bunny-note-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'bunny-note.firebasestorage.app',
     measurementId: 'G-MWNKNVYSV8',
   );
@@ -58,6 +59,7 @@ class DefaultFirebaseOptions {
     appId: '1:217370988969:android:ab08fd9a92889fbb8c74b8',
     messagingSenderId: '217370988969',
     projectId: 'bunny-note',
+    databaseURL: 'https://bunny-note-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'bunny-note.firebasestorage.app',
   );
 
@@ -66,6 +68,7 @@ class DefaultFirebaseOptions {
     appId: '1:217370988969:ios:96c32d754136a4198c74b8',
     messagingSenderId: '217370988969',
     projectId: 'bunny-note',
+    databaseURL: 'https://bunny-note-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'bunny-note.firebasestorage.app',
     iosBundleId: 'com.example.bunnynote',
   );
@@ -75,6 +78,7 @@ class DefaultFirebaseOptions {
     appId: '1:217370988969:ios:96c32d754136a4198c74b8',
     messagingSenderId: '217370988969',
     projectId: 'bunny-note',
+    databaseURL: 'https://bunny-note-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'bunny-note.firebasestorage.app',
     iosBundleId: 'com.example.bunnynote',
   );
@@ -85,6 +89,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '217370988969',
     projectId: 'bunny-note',
     authDomain: 'bunny-note.firebaseapp.com',
+    databaseURL: 'https://bunny-note-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'bunny-note.firebasestorage.app',
     measurementId: 'G-RJXHYQGB08',
   );

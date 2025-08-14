@@ -21,9 +21,7 @@ void main() async {
       final FirebaseApp app = await Firebase.initializeApp(
           options: DefaultFirebaseOptions.currentPlatform, name: "bunnynote");
 
-      await di.init(
-        firebaseApp: app,
-      );
+      await di.init(firebaseApp: app);
       Bloc.observer = AppBlocObserver();
       runApp(const MyApp());
     },

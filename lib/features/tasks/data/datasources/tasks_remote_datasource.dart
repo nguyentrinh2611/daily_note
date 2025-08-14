@@ -1,4 +1,6 @@
 // Package imports:
+import 'package:bunnynote/core/network/end_points.dart';
+import 'package:bunnynote/core/utils/logger.dart';
 import 'package:dio/dio.dart';
 import 'package:firebase_core/firebase_core.dart';
 
@@ -30,9 +32,8 @@ class TasksRemoteDataSourceImpl implements TasksRemoteDataSource {
     try {
       final String dbUrl = firebaseApp?.options.databaseURL ?? "";
 
-      final Response response =
-          await dio.get("$dbUrl/$TASKS_CATEGORY/$userUid.json");
-
+      final Response response = await dio.get("${EndPoints.baseUrl}/$TASKS_CATEGORY/$userUid.json");
+      AppLogger.instance.e(response.data);
       final List<SCTask> tasks = [];
 
       for (var element in response.data) {
@@ -50,15 +51,13 @@ class TasksRemoteDataSourceImpl implements TasksRemoteDataSource {
   @override
   Future<String> addNewTask({required SCTask newTask}) async {
     try {
-      final String dbUrl = firebaseApp?.options.databaseURL ?? "";
       final List<SCTask> list = await getTasks(userUid: newTask.userId ?? "");
       final List<Map<String, dynamic>> data = [];
       for (var element in list) {
         data.add(element.toMap());
       }
       data.add(newTask.toMap());
-
-      final patchRes = await dio.patch("$dbUrl/$TASKS_CATEGORY.json", data: {
+      final patchRes = await dio.patch("${EndPoints.baseUrl}/$TASKS_CATEGORY.json", data: {
         newTask.userId: data,
       });
       return patchRes.statusCode.toString();
